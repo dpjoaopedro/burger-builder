@@ -33,7 +33,7 @@ const order = props => {
       <p>Client: {props.client}</p>
       <p>Ingredients: {ingredientOutput}</p>
       <p>
-        Price: <strong>${props.price}</strong>
+        Price: <strong>${props.price.toFixed(2)}</strong>
       </p>
     </div>
   );
