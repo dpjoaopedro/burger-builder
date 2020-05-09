@@ -15,7 +15,7 @@ const order = props => {
     return (
       <span
         key={ig.name}
-        style={{
+        style={{ 
           textTransform: 'capitalize',
           display: 'inline-block',
           margin: '0 8px',
